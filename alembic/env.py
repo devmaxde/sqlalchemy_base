@@ -6,8 +6,8 @@ from alembic import context
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
-from minecraft_cloud.database_utils import build_database_url
-from minecraft_cloud.models import get_combined_metadata
+from ..database.utils import build_database_url
+from ..database.models import get_combined_metadata
 
 config = context.config
 
